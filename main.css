@@ -60,3 +60,13 @@ p {
   background-color: red;
   border: 6px solid #000;
 }
+
+.hidden {
+  display: none;
+}
+
+button {
+  color: #fff;
+  background-color: #5F419A;
+  text-align: center;
+}
