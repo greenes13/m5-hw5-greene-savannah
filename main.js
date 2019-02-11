@@ -18,9 +18,18 @@ function toggleBackground(e){
   }
 }
 
+//5
+
+var button=document.querySelector(".restart")
+
+function showButton(e){
+  button.classList.remove('hidden')
+}
+
 for (var i=0; i<boxes.length; i++) {
   boxes[i].addEventListener('mouseenter', toggleBackground)
   boxes[i].addEventListener('mouseleave', toggleBackground)
+  boxes[i].addEventListener('click', showButton) //5
 }
 
 //2
