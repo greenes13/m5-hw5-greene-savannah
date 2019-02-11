@@ -15,10 +15,10 @@ h2 {
   font-size: 18px !important;
 }
 
-p {
+.bigger {
   text-align: center;
   color: #5F419A !important;
-  font-size: 75px !important;
+  font-size: 75px;
   font-weight: 600;
 }
 
@@ -65,8 +65,14 @@ p {
   display: none;
 }
 
+.hint {
+  font-size: 12px;
+  text-align: center;
+  color: #fff;
+}
+
 button {
   color: #fff;
   background-color: #5F419A;
-  text-align: center;
+  margin-top: 10px !important;
 }
